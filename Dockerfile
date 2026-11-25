@@ -2,7 +2,7 @@
 
 FROM eclipse-temurin:17-jdk
 
-LABEL version="1.9.1"
+LABEL version="1.9.2"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Skies"
 LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/82/82f09c704f3625f3726bc34e2b9533b4d7d8b874d2651f6c2fe1ab9806c04c77.png"
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB Skies v1.9.1 Server Powered by Docker"
+ENV MOTD="FTB Skies v1.9.2 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms4096m -Xmx6144m"
 
